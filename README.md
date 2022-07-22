@@ -30,6 +30,7 @@ Users should be able to:
 ### Links
 
 -   [Solution on GitHub](https://github.com/oudajosefu/product-preview-card-component-main)
+-   [Live Website](https://oudajosefu.github.io/product-preview-card-component-main/)
 
 ## My process
 
