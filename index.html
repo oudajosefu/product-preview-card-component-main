@@ -32,22 +32,24 @@
     }
   </script>
 </head>
-<body class="flex items-center justify-center w-screen h-screen bg-cream">
-  <div class="flex flex-col xl:flex-row items-center justify-between xl:items h-[90%] w-[90%] xl:h-[60vh] xl:w-[40vw] bg-white rounded-lg overflow-hidden">
-    <div class="w-full xl:w-1/2 xl:h-full bg-cover bg-no-repeat aspect-square bg-[url('images/image-product-mobile.jpg')] xl:bg-[url('images/image-product-desktop.jpg')]"></div>
-    <div class="flex flex-col gap-[1vh] m-[1.3rem] justify-center xl:justify-evenly xl:h-[80%]">
-      <p class="text-xs font-montserrat text-dark-grayish-blue opacity-80">P E R F U M E</p>
-      <p class="text-3xl font-fraunces text-very-dark-blue">Gabrielle Essence Eau De Parfum</p>
-      <p class="text-sm leading-7 opacity-80 font-montserrat text-dark-grayish-blue">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
-      <div class="flex items-center gap-4 my-2">
-        <p class="text-3xl text-dark-cyan font-fraunces">$149.99</p>
-        <p class="text-xs line-through text-dark-grayish-blue opacity-80">$169.99</p>
+<body>
+  <main class="flex items-center justify-center w-screen h-screen bg-cream">
+    <div class="flex flex-col xl:flex-row items-center justify-between xl:items h-[90%] w-[90%] xl:h-[60vh] xl:w-[40vw] bg-white rounded-lg overflow-hidden">
+      <div class="w-full xl:w-1/2 xl:h-full bg-cover bg-no-repeat aspect-square bg-[url('images/image-product-mobile.jpg')] xl:bg-[url('images/image-product-desktop.jpg')]"></div>
+      <div class="flex flex-col gap-[1vh] m-[1.3rem] justify-center xl:justify-evenly xl:h-[80%]">
+        <p class="text-xs font-montserrat text-dark-grayish-blue opacity-80">P E R F U M E</p>
+        <h1 class="text-3xl font-fraunces text-very-dark-blue">Gabrielle Essence Eau De Parfum</h1>
+        <p class="text-sm leading-7 opacity-80 font-montserrat text-dark-grayish-blue">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+        <div class="flex items-center gap-4 my-2">
+          <p class="text-3xl text-dark-cyan font-fraunces">$149.99</p>
+          <p class="text-xs line-through text-dark-grayish-blue opacity-80">$169.99</p>
+        </div>
+        <button class="flex items-center justify-center w-full gap-2 rounded-lg h-11 bg-dark-cyan">
+          <img src="./images/icon-cart.svg">
+          <p class="text-sm text-white font-montserrat">Add to Cart</p>
+        </button>
       </div>
-      <button class="flex items-center justify-center w-full gap-2 rounded-lg h-11 bg-dark-cyan">
-        <img src="./images/icon-cart.svg">
-        <p class="text-sm text-white font-montserrat">Add to Cart</p>
-      </button>
     </div>
-  </div>
+  </main>
 </body>
 </html>
